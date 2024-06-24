@@ -1,0 +1,24 @@
+.sponsors{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+}
+
+.sponsors_images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    margin-bottom: 5rem;
+}
+.sponsors button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sponsors responsive */

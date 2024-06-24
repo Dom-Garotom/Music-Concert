@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    top: 25px;
+    margin-bottom: 14rem;
+}
+header .nav_Header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    list-style: none;
+    align-items: center;   
+}
+header .nav_Header ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+ul li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn_Header{
+    color:  #381DDB;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+
+/* Responsividade do header */

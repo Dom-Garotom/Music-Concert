@@ -1,0 +1,142 @@
+.event{
+    width: 100%;
+    background-image: linear-gradient(to bottom, #ddd6ff6b, #e7e2ff6b, #fff);
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
+.event h2 {
+    margin: 10rem 20rem 5rem 20rem;
+    font-size: 3rem;
+}
+
+/* stilização da barra de seleção de dias  */
+
+.select_day{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin: 1rem 20rem;
+}
+.select_day div .title_day-event{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  
+}
+.select_day div .day_event{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.select_day div .hotbar{
+    width: 30rem;
+    height: 0.5rem;
+    margin: 1rem 0rem 5rem 0rem;
+    background-color:  #00000020;
+}
+
+#day-01:hover{
+    color: #2b00ff;
+    transition: 1s;
+}
+#day-02:hover{
+    color: #2b00ff;
+}
+#day-03:hover{
+    color: #2b00ff;
+}
+
+/* LEMBRESE DE ARRUMAR O HOVER DAS BARRAS COM JS */
+
+
+/* Estilização do painel de eventos  */
+
+
+.painel_event{
+    margin: 1rem 20rem; 
+}
+.painel_event .hotbar_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20rem;
+    width: 95rem;
+    padding: 5rem 10rem 4rem 0rem;
+    font-weight: 600;
+    font-size: 2rem;
+    border: #c9c9c96d solid 1px;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    background-color: #ddd6ff8c;
+}
+
+
+.content_event{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    width: 95rem;
+    padding: 5rem 0rem;
+    border: #c9c9c96d solid 1px;
+}
+
+.time_event{
+    font-size: 1.5rem;
+    margin: 1.5rem 0rem;
+    width: 15rem;
+}
+.text_event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+.speaker_event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 15rem;
+}
+.speaker{
+    display: flex;
+    flex-direction: row;align-items: center;
+    gap: 1rem;
+    width: 15rem;
+}
+.speaker img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+}
+.speaker span, strong{
+    font-size: 1.3rem;
+}
+
+.preview_event a {
+    text-decoration: none;
+    color: #000;
+}
+.preview_event span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+.preview_event i{
+    font-size: 1.5rem;
+}
+
+.line-02 .preview_event i, .line-02 .preview_event span{
+    color: #fd1c1cbb;
+}
+
+/* Section event responsiva */

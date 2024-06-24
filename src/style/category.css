@@ -1,0 +1,95 @@
+.Category{
+    width: 100%;
+    height: 70vh;
+}
+.Category h2{
+    margin-top: 22rem;
+    margin-left: 30rem;
+    margin-bottom: 8rem;
+}
+.Category h2 strong{
+    color: #381DDB;
+    font-size: 3.5rem;
+}
+
+/* Estilização dos cards */
+
+.cards_category{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    height: 30rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 3rem;
+    padding: 4rem;
+    width: 28rem;
+    height: 25.8rem;
+    color: #222222;
+    background-color: rgb(218, 167, 205);
+    transition: 0.5s;
+}
+.card i {
+    margin: 2rem 0rem;
+}
+.card h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.card p {
+    font-size: 1.5rem;
+    width: 22rem
+}
+.card_1{
+    background-color: #fbdbe87a;
+}
+.card_2{
+    background-color: #fedbebb5;
+}
+.card_3{
+    background-color: #f5d3e3;
+}
+.card_4{
+    background-color: #f5b4f67d;
+}
+.card_5{
+    background-color: #e7f6f78c;
+}
+.card_1:hover{
+    background-color: #381DDB;
+    color: #fff;
+    margin-bottom: 3rem;
+    transition: 1s;
+}
+.card_2:hover{
+    background-color: #381DDB;
+    color: #fff;
+    margin-bottom: 3rem;
+    transition: 1s;
+}
+.card_3:hover{
+    background-color: #381DDB;
+    color: #fff;
+    margin-bottom: 3rem;
+    transition: 1s;
+}
+.card_4:hover{
+    background-color: #381DDB;
+    color: #fff;
+    margin-bottom: 3rem;
+    transition: 1s;
+}
+.card_5:hover{
+    background-color: #381DDB;
+    color: #fff;
+    margin-bottom: 3rem;
+    transition: 1s;
+}
+
+
+/*  Cards responsivos */

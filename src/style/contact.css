@@ -1,0 +1,128 @@
+.contact-us{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+
+.contac-us_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    width: 45%;
+    height: 80vh;
+    background-color: #381DDB;
+    color: #fff;
+    padding: 6rem;
+}
+.contac-us_info h3{
+    color: #fff;
+    margin: 4.5rem 0rem 1rem 0rem;
+}
+.contac-us_info p {
+    font-size: 2rem;
+    color: #ffffffb4;
+    margin-bottom: 8rem;
+}
+.contac-us_info i {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    color: #FFA3A3;
+}
+.contac-us_info span{
+    color: #fff;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+
+.shape-01{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    background-color: #84C4FF;
+    position: absolute;
+    top: 40rem;
+    left: 49rem;
+    z-index: 1;
+}
+.shape-02{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    background-color:  #FFA3A3;
+    position: absolute;
+    top: 40rem;
+    left: 49rem;
+    z-index: 0;
+}
+
+
+.contact-us_form{
+    width: 55%;
+    height: 80vh;
+    padding: 10rem;
+    background-color: #22222206;
+}
+.contact-us_form h3{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+.contact-us_form form label{
+    font-size: 1.2rem;
+    color: #464141;
+    font-weight: 500;
+}
+.contact-us_form form input{
+    background-color: transparent;
+    height: 3rem;
+    width: 50rem;
+    border: none;
+    border-bottom: 1px solid #46414138;
+    outline: 0;
+    margin-bottom: 3rem;
+}
+.contact-us_form form textarea{
+    background-color: transparent;
+    height: 10rem;
+    width: 50rem;
+    border: none;
+    border-bottom:1px solid #381DDB;
+    outline: none;
+    margin-bottom: 4rem;
+}
+.contact-us_form form button{
+    width: 50rem;
+}
+
+
+.shape_container{
+    position: relative;
+    overflow: hidden;
+    width: 8rem;
+    height: 8rem;
+    z-index: 4;
+    left: 63rem;
+    display: flex;
+    flex-direction: row;
+}
+.shape_container div.shape-03{
+    width:4rem;
+    height:4rem;
+    border-radius: 100%;
+    background-color: #84C4FF;
+    top: 40rem;
+    left: 49rem;
+    z-index: 1;
+}
+.shape_container div.shape-04{
+    width:4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background-color:  #FFA3A3;
+    top: 40rem;
+    left: 49rem;
+    z-index: 0;
+}

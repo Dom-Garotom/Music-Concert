@@ -1,0 +1,109 @@
+
+/* Ajustando a imagem da hero */
+
+.home_section{
+    width: 100%;
+    height: 100vh;
+}
+.Home_heroBackground{
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+    position: absolute;
+}
+
+/* Hero-banner */
+
+
+
+.hero_content{
+    display: flex;
+    flex-direction: column;
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.hero_text h1 {
+    color: #fff;
+    font-size: 5.5rem;
+    width: 70rem;
+    margin-bottom: 5rem;
+}
+.hero_text h1 strong{
+    color: #FFA3A3;
+    font-size: 5.5rem;
+    margin-left: 13rem;
+}
+
+.hero_text p{
+    color: #ffffff;
+    font-size: 1.8rem;
+    width: 70rem;
+}
+.hero_text  .margin_P{
+    margin-left: 6rem;
+}
+
+
+/* estilização dos butões do hero */
+
+
+.hero_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+.hero_button button, .hero_button button a{
+    background-color: #FC5252;
+    text-decoration: none;
+    color: #fff;
+}
+.hero_button .button_transparent{
+    background-color: transparent;
+}
+.hero_button .button_transparent a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: transparent;
+}
+.hero_button .button_transparent a i {
+    font-size: 2.8rem;
+}
+
+
+/* Estilização do timer hero */
+
+
+.timer_hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.days, .hours,
+.minuts,.seconds{
+    font-size: 13rem;
+    font-weight: 600;
+}
+
+.timer_hero div p{
+    font-family: 'Montserrat' , sans-serif;
+    color: #fff;
+}
+
+
+
+/* Responsividade da home */

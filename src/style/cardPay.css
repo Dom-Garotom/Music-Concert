@@ -1,0 +1,103 @@
+.Card_pay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.CardsPay{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin: 5rem 0rem;
+}
+
+.cardPay_container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow:#1515153e 2px 15px 30px 10px ;
+}
+
+.cardPay_content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.cardPay_content .indice{
+    width: 30rem;
+    height: 0.5rem;
+    background-color: #000;
+}
+.cardPay_pricing h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.cardPay_pricing span{
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.CardPay_bisnes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.buttonPay a{
+    color: #fff;
+    text-decoration: none;
+}
+.buttonPay{
+    border-radius: 0.5rem;
+}
+
+
+.cardPay-01 .buttonPay{
+    background-color: transparent;
+    border: 1px solid #381DDB;
+}
+.cardPay-01 .buttonPay a{
+    color: #381DDB;
+}
+.cardPay-01 .CardPay_bisnes .bisnes-02,
+.cardPay-01 .CardPay_bisnes .bisnes-03{
+    color: #00000060;
+}
+
+
+.cardPay-02 .cardPay_pricing{
+    color: #381DDB;
+}
+.cardPay-02 .indice{
+    background-color: #381DDB;
+}
+.cardPay-02 .CardPay_bisnes  .bisnes-03{
+    color: #00000060;
+}
+
+
+.cardPay-03 .cardPay_pricing{
+    color: #FC5252;
+}
+.cardPay-03 .indice{
+    background-color: #FC5252;
+}
+.cardPay-03 .buttonPay{
+    background-color: transparent;
+    border: 1px solid #381DDB;
+}
+.cardPay-03 .buttonPay a{
+    color: #381DDB;
+}
+
+/* responsividade dos cardspay */
